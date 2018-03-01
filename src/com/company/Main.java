@@ -17,7 +17,7 @@ public class Main {
         Team [] teams = new Team[64];                                   //Creates array of teams
 
         //fileSearch.nextLine(); If we have a header line
-        while (fileSearch.hasNext()){                                   //
+        while (fileSearch.hasNext()){
             indx++;
             teams[indx] = new Team(fileSearch.nextLine());
         }
