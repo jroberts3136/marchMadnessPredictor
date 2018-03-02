@@ -25,12 +25,11 @@ public class Team implements Comparable<Team>{
         tenure = Double.parseDouble(teamData[4]);
         rebound = Double.parseDouble(teamData[5]);
         seed = Double.parseDouble(teamData[6]);
-        compareScore = calculateCompare(teamData);
+        compareScore = calculateCompare();
     }
 
-    public double calculateCompare(String[] data){
-        double score = (ppgopg * 10) + (foulShots * 7) + (tenure / 12) + (rebound / 250);
-        return score;
+    public double calculateCompare(){
+        return (ppgopg * 10) + (foulShots * 7) + (tenure / 12) + (rebound / 250);
     }
 
     @Override
