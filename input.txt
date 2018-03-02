@@ -1,3 +1,0 @@
-Header Line Use tab for delimiter
-Line format:
-[Team Name] [Average Points per Game]   [Average Opposition Points per Game]    [Percent Foul Shots Made]   [Coach Tenure]  [Rebound Percentage]    [Seed]

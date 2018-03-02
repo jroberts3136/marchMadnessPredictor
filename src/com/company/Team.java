@@ -29,12 +29,12 @@ public class Team implements Comparable<Team>{
     }
 
     public double calculateCompare(String[] data){
-        double score = (ppgopg * 3) + (foulShots) + (tenure * 0.5) + (rebound * 1.5);   //Sample calculation, subject to change
+        double score = (ppgopg * 10) + (foulShots * 7) + (tenure / 12) + (rebound / 250);
         return score;
     }
 
     @Override
     public int compareTo(Team o) {
-        return return Double.compare(seed, o.seed);
+        return Double.compare(seed, o.seed);
     }
 }
