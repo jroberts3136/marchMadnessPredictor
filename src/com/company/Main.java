@@ -1,15 +1,16 @@
 package com.company;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws IOException{
-        String fileName = "input.txt";
-        Scanner fileSearch = new Scanner(new File(fileName));
+        Scanner fileSearch = new Scanner(new File("input.txt"));
         //fileSearch.nextLine(); If we have a header line
         //Implemented like this so scanner position remains and teams can be split into their respective divisions
         Team [] d1Round1 = fileRead(fileSearch);              //Top left of bracket
@@ -63,6 +64,11 @@ public class Main {
         round(d1d2Winners,d3d4Winners,championship);
 
         Team champion = determineWin(championship[0],championship[1]);
+
+        FileWriter fw = new FileWriter("input.txt");
+        PrintWriter bracketPrint = new PrintWriter(fw);     //standard length = 8 tabs in IntelliJ
+        String bracket;
+        bracketPrint.println();
     }
 
     public static Team[] fileRead(Scanner search){  //Reads input file and returns array of teams
@@ -97,6 +103,7 @@ public class Main {
             lowSeed--;
         }
     }
+
     public static void round(Team[] division1, Team[]division2 , Team[] next){          //Determines advancing teams, for when teams are in different arrays
         next[0] = determineWin(division1[0], division1[1]);                             //All situations using this methods only have two teams in each array
         next[1] = determineWin(division2[0], division2[1]);
