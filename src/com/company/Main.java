@@ -43,7 +43,7 @@ public class Main {
 
         Team [] championship = new Team[2];
 
-        round(d1Round1,d1Round2);
+        round(d1Round1,d1Round2);               //"Plays" rounds to determine advancing teams
         round(d2Round1,d2Round2);
         round(d3Round1,d3Round2);
         round(d4Round1,d4Round2);
@@ -65,10 +65,55 @@ public class Main {
 
         Team champion = determineWin(championship[0],championship[1]);
 
-        FileWriter fw = new FileWriter("input.txt");
-        PrintWriter bracketPrint = new PrintWriter(fw);     //standard length = 8 tabs in IntelliJ
-        String bracket;
-        bracketPrint.println();
+        FileWriter fw = new FileWriter("bracketOutput.txt");
+        PrintWriter writer = new PrintWriter(fw);
+
+        writer.println("Round 1 - Division 1:\n");              //Prints results to text file
+        printRound(d1Round1,writer);
+        writer.println("Round 1 - Division 2:\n");
+        printRound(d2Round1,writer);
+        writer.println("Round 1 - Division 3:\n");
+        printRound(d3Round1,writer);
+        writer.println("Round 1 - Division 4:\n");
+        printRound(d1Round1,writer);
+
+        writer.println("Round 2 - Division 1:\n");
+        printRound(d1Round2,writer);
+        writer.println("Round 2 - Division 2:\n");
+        printRound(d2Round2,writer);
+        writer.println("Round 2 - Division 3:\n");
+        printRound(d3Round2,writer);
+        writer.println("Round 2 - Division 4:\n");
+        printRound(d4Round2,writer);
+
+        writer.println("Round 3 - Division 1:\n");
+        printRound(d1Round3,writer);
+        writer.println("Round 3 - Division 2:\n");
+        printRound(d2Round3,writer);
+        writer.println("Round 3 - Division 3:\n");
+        printRound(d3Round3,writer);
+        writer.println("Round 3 - Division 4:\n");
+        printRound(d4Round3,writer);
+
+        writer.println("Round 4 - Division 1:\n");
+        printRound(d1Final,writer);
+        writer.println("Round 4 - Division 2:\n");
+        printRound(d2Final,writer);
+        writer.println("Round 4 - Division 3:\n");
+        printRound(d3Final,writer);
+        writer.println("Round 4 - Division 4:\n");
+        printRound(d4Final,writer);
+
+        writer.println("Round 5 - Division 1 v. Division 2:\n");
+        printRound(d1d2Winners,writer);
+        writer.println("Round 5 - Division 3 v. Division 4:\n");
+        printRound(d3d4Winners,writer);
+
+        writer.println("Round 6 - Championship Game:\n");
+        printRound(championship,writer);
+
+        writer.println("Champion:\n");
+        writer.println(champion.name);
     }
 
     public static Team[] fileRead(Scanner search){  //Reads input file and returns array of teams
@@ -107,5 +152,14 @@ public class Main {
     public static void round(Team[] division1, Team[]division2 , Team[] next){          //Determines advancing teams, for when teams are in different arrays
         next[0] = determineWin(division1[0], division1[1]);                             //All situations using this methods only have two teams in each array
         next[1] = determineWin(division2[0], division2[1]);
+    }
+    public static void printRound(Team [] round, PrintWriter writer){
+        for (int i = 0; i<round.length;i++) {
+            writer.print(round[i].name);
+            if (i != (round.length-1)){
+                writer.print(", ");
+            }
+        }
+        writer.print("\n\n");
     }
 }

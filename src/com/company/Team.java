@@ -5,7 +5,7 @@ package com.company;
  */
 public class Team implements Comparable<Team>{
     public String name;
-    public String standardName = standardizeName(name);
+    //public String standardName = standardizeName(name);
     public double ppg;
     public double opg;
     public double ppgopg;
@@ -15,7 +15,7 @@ public class Team implements Comparable<Team>{
     public double seed;
     public double compareScore;
 
-    public int standardLength = 32;
+    //public int standardLength = 32;
 
     public Team(String data){
         String[] teamData = data.split("\\t");
@@ -34,7 +34,7 @@ public class Team implements Comparable<Team>{
     private double calculateCompare(){
         return (ppgopg * 10) + (foulShots * 7) + (tenure / 12) + (rebound / 250);
     }
-    private String standardizeName(String name){
+    /*private String standardizeName(String name){
         int leftoverSpace = standardLength - name.length();
         if (leftoverSpace == 1){
             name += " ";
@@ -48,7 +48,7 @@ public class Team implements Comparable<Team>{
             }
         }
         return name;
-    }
+    }*/
     @Override
     public int compareTo(Team o) {
         return Double.compare(seed, o.seed);
