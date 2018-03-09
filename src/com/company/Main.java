@@ -10,20 +10,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException{
-        Scanner fileSearch = new Scanner(new File("input.txt"));
+        Scanner fileSearch = new Scanner(new File("2016 March Madness Stats - Sheet1.tsv"));
         //fileSearch.nextLine(); If we have a header line
         //Implemented like this so scanner position remains and teams can be split into their respective divisions
-        Team [] d1Round1 = fileRead(fileSearch);              //Top left of bracket
-        Team [] d2Round1 = fileRead(fileSearch);              //Bottom left of bracket
-        Team [] d3Round1 = fileRead(fileSearch);              //Top right of bracket
-        Team [] d4Round1 = fileRead(fileSearch);              //Bottom right of bracket
+        Team [] d1Round1 = fileRead(fileSearch);                //Top left of bracket
+        Team [] d2Round1 = fileRead(fileSearch);                //Bottom left of bracket
+        Team [] d3Round1 = fileRead(fileSearch);                //Top right of bracket
+        Team [] d4Round1 = fileRead(fileSearch);                //Bottom right of bracket
 
-        Arrays.sort(d1Round1);                                //Ensures arrays are sorted by seed
+        Arrays.sort(d1Round1);                                  //Ensures arrays are sorted by seed
         Arrays.sort(d2Round1);
         Arrays.sort(d3Round1);
         Arrays.sort(d4Round1);
 
-        Team [] d1Round2 = new Team[8];
+        Team [] d1Round2 = new Team[8];                         //Does not need to be resorted
         Team [] d2Round2 = new Team[8];
         Team [] d3Round2 = new Team[8];
         Team [] d4Round2 = new Team[8];
@@ -114,11 +114,14 @@ public class Main {
 
         writer.println("Champion:\n");
         writer.println(champion.name);
+
+        writer.close();
+        fw.close();
     }
 
     public static Team[] fileRead(Scanner search){  //Reads input file and returns array of teams
         int indx = -1;
-        Team [] teams = new Team[64];                                   //Creates array of teams
+        Team [] teams = new Team[16];                                   //Creates array of teams
 
         for (int i = 0; i<16; i++){                                     //Each division will only have 16 teams to begin with
             indx++;

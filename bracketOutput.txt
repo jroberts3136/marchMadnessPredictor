@@ -1,0 +1,79 @@
+Round 1 - Division 1:
+
+Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Florida, Iowa State, Cincinnati, Creighton, Dayton, Arkansas, Bucknell, ETSU, FGCU, Iona
+
+Round 1 - Division 2:
+
+Kansas, Kentucky, Louisville, Minnesota, Maryland, Michigan, Miami (Fla.), Michigan State, Marquette, Kansas State, Middle Tennessee, Nevada, Kent State, New Mexico State, Jacksonville State, Mt. St. Mary's
+
+Round 1 - Division 3:
+
+North Carolina, Oregon, Purdue, Notre Dame, SMU, South Carolina, St. Mary's (Calif.), Northwestern, Seton Hall, Oklahoma State, Rhode Island, Southern California, Princeton, North Dakota, Northern Kentucky, South Dakota St.
+
+Round 1 - Division 4:
+
+Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Florida, Iowa State, Cincinnati, Creighton, Dayton, Arkansas, Bucknell, ETSU, FGCU, Iona
+
+Round 2 - Division 1:
+
+Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Creighton, Cincinnati
+
+Round 2 - Division 2:
+
+Kansas, Kentucky, Louisville, Kent State, Maryland, Michigan, Miami (Fla.), Michigan State
+
+Round 2 - Division 3:
+
+North Carolina, Oregon, Purdue, Notre Dame, SMU, South Carolina, St. Mary's (Calif.), Seton Hall
+
+Round 2 - Division 4:
+
+Virginia, Villanova, Xavier, Winthrop, West Virginia, UNCW, Wichita State, VCU
+
+Round 3 - Division 1:
+
+Cincinnati, Arizona, Duke, Baylor
+
+Round 3 - Division 2:
+
+Michigan State, Kentucky, Louisville, Maryland
+
+Round 3 - Division 3:
+
+North Carolina, St. Mary's (Calif.), Purdue, Notre Dame
+
+Round 3 - Division 4:
+
+Virginia, Wichita State, Xavier, West Virginia
+
+Round 4 - Division 1:
+
+Cincinnati, Duke
+
+Round 4 - Division 2:
+
+Michigan State, Louisville
+
+Round 4 - Division 3:
+
+North Carolina, Purdue
+
+Round 4 - Division 4:
+
+Virginia, Wichita State
+
+Round 5 - Division 1 v. Division 2:
+
+Duke, Michigan State
+
+Round 5 - Division 3 v. Division 4:
+
+North Carolina, Virginia
+
+Round 6 - Championship Game:
+
+Michigan State, North Carolina
+
+Champion:
+
+Michigan State

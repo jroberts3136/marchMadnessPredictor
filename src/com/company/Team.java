@@ -6,8 +6,8 @@ package com.company;
 public class Team implements Comparable<Team>{
     public String name;
     //public String standardName = standardizeName(name);
-    public double ppg;
-    public double opg;
+    //public double ppg;
+    //public double opg;
     public double ppgopg;
     public double foulShots;
     public double tenure;
@@ -20,14 +20,14 @@ public class Team implements Comparable<Team>{
     public Team(String data){
         String[] teamData = data.split("\\t");
 
-        name = teamData[0];
-        ppg = Double.parseDouble(teamData[1]);
-        opg = Double.parseDouble(teamData[2]);
-        ppgopg = ppg/opg;
+        name = teamData[0];                         //May have to change based on how data ends up structured
+        //ppg = Double.parseDouble(teamData[6]);
+        //opg = Double.parseDouble(teamData[5]);
+        ppgopg = Double.parseDouble(teamData[2]);
         foulShots = Double.parseDouble(teamData[3]);
-        tenure = Double.parseDouble(teamData[4]);
-        rebound = Double.parseDouble(teamData[5]);
-        seed = Double.parseDouble(teamData[6]);
+        tenure = Double.parseDouble(teamData[1]);
+        rebound = Double.parseDouble(teamData[4]);
+        seed = Double.parseDouble(teamData[7]);
         compareScore = calculateCompare();
     }
 
@@ -50,7 +50,7 @@ public class Team implements Comparable<Team>{
         return name;
     }*/
     @Override
-    public int compareTo(Team o) {
+    public int compareTo(Team o) {          //Sorting by seed
         return Double.compare(seed, o.seed);
     }
 }
