@@ -32,7 +32,7 @@ public class Team implements Comparable<Team>{
     }
 
     private double calculateCompare(){
-        return (ppgopg * 10) + (foulShots * 7) + (tenure / 12) + (rebound / 250);
+        return (ppgopg * 10) + (foulShots * 7) + (tenure / 16) + (rebound / 250);
     }
     /*private String standardizeName(String name){
         int leftoverSpace = standardLength - name.length();
