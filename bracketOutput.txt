@@ -1,79 +1,79 @@
 Round 1 - Division 1:
 
-Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Florida, Iowa State, Cincinnati, Creighton, Dayton, Arkansas, Bucknell, ETSU, FGCU, Iona
+Virgina, Cincinnati, Tennessee, Arizona, Kentucky, Miami (Fla.), Nevada, Creighton, Kansas St., Texas, Loyola-Chicago, Davidson, Buffalo, Wright State, Georgia State, UMBC
 
 Round 1 - Division 2:
 
-Kansas, Kentucky, Louisville, Minnesota, Maryland, Michigan, Miami (Fla.), Michigan State, Marquette, Kansas State, Middle Tennessee, Nevada, Kent State, New Mexico State, Jacksonville State, Mt. St. Mary's
+Xavier, North Carolina, Michigan, Gonzaga, Ohio St., Houston, Texas A&M, Missouri, Flordia St., Providence, San Diego State, South Dakota State, UNC Greensboro, Montana, N.C. Central, Texas Southern
 
 Round 1 - Division 3:
 
-North Carolina, Oregon, Purdue, Notre Dame, SMU, South Carolina, St. Mary's (Calif.), Northwestern, Seton Hall, Oklahoma State, Rhode Island, Southern California, Princeton, North Dakota, Northern Kentucky, South Dakota St.
+Villanova, Purdue, Texas Tech, Wichita St., West Virginia, Florida, Arkansas, Virginia Tech, Alabama, Butler, St. Bonaventure, Murray State, Marshall, Stephen F. Austin, Lipscomb, CSU Fullterton
 
 Round 1 - Division 4:
 
-Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Florida, Iowa State, Cincinnati, Creighton, Dayton, Arkansas, Bucknell, ETSU, FGCU, Iona
+Virgina, Cincinnati, Tennessee, Arizona, Kentucky, Miami (Fla.), Nevada, Creighton, Kansas St., Texas, Loyola-Chicago, Davidson, Buffalo, Wright State, Georgia State, UMBC
 
 Round 2 - Division 1:
 
-Gonzaga, Arizona, Duke, Baylor, Florida State, Butler, Creighton, Cincinnati
+Virgina, Cincinnati, Tennessee, Arizona, Davidson, Loyola-Chicago, Nevada, Creighton
 
 Round 2 - Division 2:
 
-Kansas, Kentucky, Louisville, Kent State, Maryland, Michigan, Miami (Fla.), Michigan State
+Xavier, North Carolina, Michigan, Gonzaga, South Dakota State, Houston, Providence, Flordia St.
 
 Round 2 - Division 3:
 
-North Carolina, Oregon, Purdue, Notre Dame, SMU, South Carolina, St. Mary's (Calif.), Seton Hall
+Villanova, Purdue, Stephen F. Austin, Wichita St., West Virginia, St. Bonaventure, Butler, Virginia Tech
 
 Round 2 - Division 4:
 
-Virginia, Villanova, Xavier, Winthrop, West Virginia, UNCW, Wichita State, VCU
+Kansas, Duke, Michigan State, New Mexico State, Syracuse, Arizona St., Rhode Island, Seton Hall
 
 Round 3 - Division 1:
 
-Cincinnati, Arizona, Duke, Baylor
+Virgina, Cincinnati, Loyola-Chicago, Davidson
 
 Round 3 - Division 2:
 
-Michigan State, Kentucky, Louisville, Maryland
+Xavier, North Carolina, Houston, Gonzaga
 
 Round 3 - Division 3:
 
-North Carolina, Oregon, Purdue, Notre Dame
+Villanova, Purdue, Stephen F. Austin, West Virginia
 
 Round 3 - Division 4:
 
-Virginia, Wichita State, Xavier, West Virginia
+Kansas, Duke, Michigan State, Syracuse
 
 Round 4 - Division 1:
 
-Cincinnati, Duke
+Virgina, Cincinnati
 
 Round 4 - Division 2:
 
-Michigan State, Louisville
+Gonzaga, North Carolina
 
 Round 4 - Division 3:
 
-North Carolina, Purdue
+Villanova, Purdue
 
 Round 4 - Division 4:
 
-Virginia, Wichita State
+Syracuse, Michigan State
 
 Round 5 - Division 1 v. Division 2:
 
-Duke, Michigan State
+Cincinnati, Gonzaga
 
 Round 5 - Division 3 v. Division 4:
 
-North Carolina, Virginia
+Purdue, Michigan State
 
 Round 6 - Championship Game:
 
-Michigan State, North Carolina
+Gonzaga, Michigan State
 
 Champion:
 
-North Carolina
+Michigan State

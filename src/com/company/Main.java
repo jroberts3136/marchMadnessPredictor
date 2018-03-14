@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException{
-        Scanner fileSearch = new Scanner(new File("2016 March Madness Stats - Sheet1.tsv"));
+        Scanner fileSearch = new Scanner(new File("2018 stats as of 3%2F5%2F18 - Sheet1.tsv"));
         //fileSearch.nextLine(); If we have a header line
         //Implemented like this so scanner position remains and teams can be split into their respective divisions
-        Team [] d1Round1 = fileRead(fileSearch);                //Top left of bracket
-        Team [] d2Round1 = fileRead(fileSearch);                //Bottom left of bracket
-        Team [] d3Round1 = fileRead(fileSearch);                //Top right of bracket
-        Team [] d4Round1 = fileRead(fileSearch);                //Bottom right of bracket
+        Team [] d1Round1 = fileRead(fileSearch);                //Top left of bracket, South
+        Team [] d2Round1 = fileRead(fileSearch);                //Bottom left of bracket, West
+        Team [] d3Round1 = fileRead(fileSearch);                //Top right of bracket, East
+        Team [] d4Round1 = fileRead(fileSearch);                //Bottom right of bracket, Midwest
 
         Arrays.sort(d1Round1);                                  //Ensures arrays are sorted by seed
         Arrays.sort(d2Round1);
